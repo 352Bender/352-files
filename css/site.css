@@ -1,0 +1,46 @@
+
+html{background:#e9e9e9 url("https://352bender.github.io/352-files/vb/images/352/forum/background.gif")}
+body{margin:0;font:13px Tahoma,Calibri,Verdana,Geneva,sans-serif;color:#3e3e3e}
+a{color:#417394;text-decoration:none}a:hover{color:#417394;text-decoration:underline}
+.above_body{background:url("https://352bender.github.io/352-files/vb/images/352/forum/title/19.png") repeat-x;height:205px;position:relative;min-width:980px}
+#header{height:150px}#header .logo{display:block}
+.navbar{position:absolute;left:10px;right:10px;bottom:4px;background:#6b8fae;border:1px solid #333;font:11px Arial,Calibri,Verdana,Geneva,sans-serif}
+.navtabs{list-style:none;margin:0;padding:0 0 0 20px;height:26px;background:#4e687f}
+.navtabs li{float:left;margin-right:2px}
+.navtabs li a{display:block;height:22px;padding:4px 10px 0;color:#fff;font-size:12px}
+.navtabs li.selected a{background:#7192a8;border-top:1px solid #cedfeb;color:#000;font-weight:bold}
+.navlinks{list-style:none;margin:0;padding:0 0 0 10px;height:26px;background:#7192a8}
+.navlinks>li{float:left;position:relative}
+.navlinks>li>a{display:block;padding:6px 8px;color:#fff}
+.navlinks .drop>a:after{content:" \25BE"}
+.navlinks ul{display:none;position:absolute;left:0;top:26px;z-index:10;list-style:none;margin:0;padding:0;background:#fff;border:1px solid #6b8fae;min-width:230px;box-shadow:2px 2px 4px rgba(0,0,0,.3)}
+.navlinks .drop.open ul,.navlinks .drop:hover ul{display:block}
+.navlinks ul a{display:block;padding:5px 10px;color:#3e3e3e;border-bottom:1px solid #eee;font-size:12px}
+.navlinks ul a:hover{background:#ffeb90;text-decoration:none}
+.body_wrapper{padding:10px 20px}
+#breadcrumb{margin:0 0 8px}
+.notices{background:#ffeb90;padding:5px 10px;font-size:12px;margin-bottom:10px}
+.layout{display:flex;gap:20px;align-items:flex-start}
+.col.left{flex:0 0 220px}.col.right{flex:0 0 220px}.col.main{flex:1;min-width:0}
+.cms_widget{background:#f1f1f1;border:1px solid #c1c1c1;margin-bottom:10px;padding:0 6px 6px}
+.cms_widget_header h3{margin:0;padding:4px 6px 2px;font-size:13px;color:#424242;text-align:center}
+.cms_widget_content{background:#fff;border:1px solid #dadada;padding:10px 6px;color:#424242;font-size:12px}
+.cms_widget_content ul{margin:0;padding-left:16px}.cms_widget_content li{margin:3px 0}
+h1.article_title{font:20px Georgia,serif;color:#425769;border-top:4px solid #425769;border-bottom:1px dotted #425769;padding:5px 10px;margin:0 0 6px}
+.meta{font-size:11px;color:#777;padding:0 10px 8px}
+.article{text-align:justify;padding:0 10px;overflow-x:auto}
+.article img{max-width:100%;height:auto}
+.article table img{max-width:none}
+.preview{border:1px solid #b2b2b2;background:#fff;padding:8px 10px;margin-bottom:10px}
+.preview h2{font:16px Georgia,serif;margin:0 0 4px}
+.preview .more{font-size:11px;font-weight:bold}
+table.roster{border-collapse:collapse;width:100%}
+td.roster,td.plain{border:1px solid #000;padding:6.5px;vertical-align:middle}
+td.plain table td.plain{border:1px solid #ddd}
+.dropshadow{box-shadow:3px 3px 4px rgba(0,0,0,.35)}
+.imgcenter{display:block;margin:auto}
+.title352,.storytitle{font:bold 18px Georgia,serif;color:#425769;text-align:center;margin:6px 0}
+#footer{background:#6b8fae;border-top:1px solid #425769;border-bottom:1px solid #425769;padding:5px 20px;text-align:right;margin:10px 20px 0}
+#footer a{color:#fff;margin-left:6px}
+.copyright{text-align:center;font-size:11px;color:#666}
+@media (max-width:900px){.layout{flex-direction:column}.col.left,.col.right{flex:none;width:100%}.above_body{min-width:0}}
